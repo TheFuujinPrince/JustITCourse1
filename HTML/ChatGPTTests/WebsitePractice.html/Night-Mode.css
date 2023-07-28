@@ -1,0 +1,16 @@
+/* Night-Mode.css */
+
+body {
+    background-color: #222;
+    color: #ccc;
+}
+
+nav {
+    background-color: #111;
+}
+
+nav a {
+    color: #ccc;
+}
+
+/* Add more styles for night mode */

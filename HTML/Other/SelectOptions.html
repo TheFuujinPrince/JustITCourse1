@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: lemonchiffon;">
+    <!--Select Option-->
+    <!--Creates a dropdown selection box, the first option is pre-defined on-screen-->
+    <h2>Select Option</h2>
+    <label for="Consoles">Choose a game console &#127918;:</label> <br>
+
+    <select name="Consoles" id="Consoles" style="background-color: lightblue;">
+        <option value="Default">Select an Option</option>
+        <option value="Xbox">Xbox</option>
+        <option value="Playstation">Playstation</option>
+        <option value="Wii">Wii</option>
+        <option value="Dreamcast" style="background-color: ;">Dreamcast</option>
+    </select>
+    <hr>
+    <!--Horizontal rule, which draws a line across the page--> 
+    
+    <!--Radio Button-->
+    <!--The user is only able to select one option using a radio button-->
+    <h2>Radio Button</h2>
+    <p>Select your preferred website</p>
+    <form>
+        <input type="text" id="" name="website" value="">
+        <label for="Facebook">&#128214;</label>
+        <hr>
+        <input type="text" id="" name="website" value="">
+        <label for="Twitter">&#128036;</label>
+        <hr>
+        <input type="text" id="" name="website" value="">
+        <label for="YouTube">&#128421;&#65039;</label>
+        <hr>
+        <input type="text" id="" name="website" value="">
+        <label for="Twitch">&#127822</label>
+        <hr>
+        <input type="text" id="" name="website" value="">
+        <label for="Other">&#127822</label>
+        <hr>
+
+
+        <!--Checkbox-->
+        <!--User can select multiple or no options with a checkbox-->
+        <h2>Checkbox</h2>
+        <p>Which of these do you use? Tick &#9989; all that apply</p>
+        <form>
+            <input type="checkbox" id="Facebook" name="transport" value="Facebook">
+            <label for="Facebook"> Walk </label>
+            <br>
+            <input type="checkbox" id="Twitter" name="transport" value="Twitter">
+            <label for="Twitter"> Drive </label>
+            <br>
+            <input type="checkbox" id="YouTube" name="transport" value="YouTube">
+            <label for="YouTube"> Public Transport </label>
+            <br>
+            <input type="Submit" value="Submit">
+        </form>
+        <br>
+
+        <h2>Data List</h2>
+
+        <label for="potato">Choose your potato option &#127840;:</label>
+
+        <input list="cooking" name="potato" id="potato" required>
+
+        <datalist id="cooking">
+            <option value="Jacket"></option>
+            <option value="Boiled"></option>
+            <option value="Mashed"></option>
+            <option value="Saute&#769;e"></option>
+            <option value="Dauphinoise"></option>
+            <option value="Sliced"></option>
+        </datalist>
+
+        <br>
+
+        <h2>Vocation</h2>
+
+        <label for="potato">Choose your Vocation:</label>
+
+        <input list="vocation" name="class" id="class" required>
+
+        <datalist id="vocation" style="text-align: center;">
+            <option value="Fighter">
+            <option value="Hunter">
+            <option value="Priest">
+            <option value="Shield Sage">
+            <option value="Warrior">
+            <option value="Elemental Archer">
+            <option value="Seeker">
+            <option value="Sorceror">
+            <option value="Alchemist">
+            <option value="Spirit Lancer">
+            <option value="High Scepter">
+        </datalist>
+
+        <fieldset style="border: 2px solid #007bff; border-radius: 5px; padding: 20px;">
+            <legend></legend>
+        </fieldset>
+
+
+</body>
+</html>

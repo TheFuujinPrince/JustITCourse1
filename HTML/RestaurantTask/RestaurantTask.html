@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Order Form</title>
+    <link rel="stylesheet" href="RestaurantTask.css">
+</head>
+<body style="background-color: rgb(232, 0, 0);">
+    <div class="container">
+        <h1>PsP Order Form</h1>
+        <form style="background-color: rgb(7, 182, 7);">
+            <fieldset>
+                <legend>Food Order</legend>
+                <label for="food">Select Food:</label>
+                <select id="food" name="food">
+                    <option value="pizza">Pizza</option>
+                    <option value="pasta">Pasta</option>
+                    <option value="salad">Salad</option>
+                </select>
+
+                <label for="quantity">Quantity:</label>
+                <input type="number" id="quantity" name="quantity" min="1" max="10" required>
+
+                <label for="instructions">Special Instructions:</label>
+                <textarea id="instructions" name="instructions" rows="3" placeholder="Any allergies or special instructions? Let us know!"></textarea>
+            </fieldset>
+
+            <fieldset>
+                <legend>Personal Details</legend>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" required>
+            </fieldset>
+
+            <fieldset>
+                <legend>Card Details</legend>
+                <label for="card">Card Number:</label>
+                <input type="text" id="card" name="card" required>
+
+                <label for="expiry">Expiry Date:</label>
+                <input type="month" id="expiry" name="expiry" required>
+
+                <label for="cvv">CVV:</label>
+                <input type="text" id="cvv" name="cvv" required>
+            </fieldset>
+            <input type="submit" value="Place Order">
+        </form>
+    </div>
+</body>
+</html>
